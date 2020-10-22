@@ -1,0 +1,44 @@
+body{
+    background-color: #aad4cf;
+}
+
+h4+ul{
+    border: 1px solid black;
+}
+
+.image2{
+    float: none;
+    height:12%;
+    width:12%;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.centered{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40pt;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20pt;
+  }
+  
+  li {
+    display: inline;
+  }
+
+  .content{
+    font-size: 30px;
+}
+ 
