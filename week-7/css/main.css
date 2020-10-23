@@ -1,0 +1,264 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   color: darkslategrey; 
+   background-image: url("../images/white_brick_wall.png");
+   padding-top: 90px;
+   /* same as padding: 90px 0 0 0; */
+}
+
+/* 
+This is a css comment
+Shortcut for adding comment is Control + /
+*/
+h1{
+    color: white;
+}
+
+
+p{
+    background-color: lightblue;
+}
+/* Selecting multiple elements to add same style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  text-decoration: underline;  
+}
+/* Selecting child element - unordered list being the child */
+nav ul{
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 49%;
+    padding: 1em;
+    box-sizing: border-box;
+    border-right: 1px solid white;
+}
+
+nav ul li:last-child{
+    border: none;
+}
+/* Selecting child elements multiple level */
+nav ul a {
+    display: block;
+    color: darkslategrey;
+    /* You can also inherit the previous color by writing color: inherit; */
+    text-decoration: none;
+}
+/* Selecting HTML element with class name */
+
+.orange-link{
+    width: 300px;
+    padding: 1.5em;
+    display: block;
+    background: darkslategrey;
+    color: orange;
+    text-decoration: none;
+}
+
+article,
+aside{
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid black;
+    padding: 1.5em;
+    width: 80%;
+    box-sizing: border-box;
+    float: left;
+}
+
+aside{
+    width: 20%;
+}
+section{
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    /* 0 is for top and bottom while auto is for right and left */
+}
+
+/* Position Absolute */
+.orange-link.large-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* Selecting element with id value */
+/* 0100 */
+#tow{
+    position: relative;
+    background: orange url("../images/bread.jpg") no-repeat center center;
+    background-size: cover;
+    /* additional styles to make text visible */
+    color: white;
+    /* font-size: 20px; */
+    /* updating the font to rem unit */
+    font-size: 1.5rem;
+    /* 1.5 x 16 = 24px */
+    padding: 1em 1em 3em 1em;
+    /* 1em = 1 x 24px = 24px */
+    width: 50vw;
+}
+/* Adding multiple classes to an element */
+.large-text{
+    /* font-size:20px; */
+    font-size: 1.25rem;
+}
+
+.danger{
+    color: red;
+}
+
+/* direct child selector */
+article>p{
+    /* font-size:24px; */
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* light, regular, normal, bold, bolder OR 100,200,300,...800 */
+    line-height: 1.5;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+/* Adjacent sibling selector 
+Selecting only ul that is adjacent to h3
+*/
+
+
+h3+ul{
+    /* thickness style color */
+    border:1px solid black;
+}
+/* Attribute selector */
+[href="#tow"]{
+    font-weight: bold;
+}
+
+/* navigation - fixed */
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+}
+
+/* Using Pseudo Classes 
+Styling Navigation
+*/
+
+nav ul a,
+nav ul a:link,
+nav ul a:visited {
+    background: orange;
+    /* box shadows are horizontal, vertical, blur, spread color */
+    box-shadow: -2px 2px 4px 2px black;
+}
+
+nav ul a:hover,
+nav ul a:focus {
+    text-decoration: underline;
+}
+
+nav ul a:active {
+    box-shadow: 0 0 4px 2px black;
+}
+
+/* Position related selectors*/
+/* First child */
+
+aside ul li:first-child{
+font-weight: bold;
+}
+/* last child */
+section ol li:last-child{
+    font-weight: bold;
+}
+
+/* Can also be written as:
+
+aside ul li:first-child,
+section ol li:last-child{
+    font-weight: bold;
+} */
+
+/* collapse table border into one */
+table{
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(even){
+    /* hex color value with 6 characters */
+    background-color: #d5836c;
+}
+
+/* Where n is 0,1,2,3 ...until the end of the elements */
+table th:nth-child(n),
+table td:nth-child(n){
+    /* hex color value with 3 characters */
+    /* #000000 = #000 = black #FFFFFF = #FFF = White */
+    border: 1px solid #000;
+}
+
+/* 2n+1 if n is 0,1,2,3... then 2n+1. Answer depends on what n is */
+table td:nth-child(2n+1) {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/* the CSS styles below overwrites the ones at the top. Example below */
+footer{
+    background-color: aqua;
+
+}
+
+/* specificity is 'inline styles (the tag that includes =), id, class name and tag name */
+
+/* specificity 0002
+ */
+ body footer {
+     background: orange;
+ }
+
+ /* specificity 0001 */
+footer {
+    background-color: red;
+}
+
+/* specificity 0010 */
+.site-footer{
+    background-color: cornflowerblue;
+}
+
+/* specificity: 0011 */
+footer.site-footer{
+    background-color: teal;
+}
+
+/* specificity: 0011 */
+blockquote.large-text {
+    text-transform: uppercase;
+}
+
+/* CSS Box Model */
+section p{
+    width: 50%;
+    padding: 1em;
+    /* padding: 1em 2em 3em 4 em - goes from top-right-bottom-left. Same goes for margin*/
+    /* em is the font size of the element. In this case, it is 16px which is the default font size. */
+    /* margin: 2em; */
+    margin: 2em auto;
+    border: 2px solid black;
+}
