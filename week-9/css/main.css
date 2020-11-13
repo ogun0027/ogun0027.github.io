@@ -59,7 +59,7 @@ body{
     line-height: 1.5;
 }
 *,
-8::after,
+*::after,
 *::before{
     box-sizing: inherit;
     line-height: inherit;
