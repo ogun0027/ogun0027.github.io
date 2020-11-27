@@ -1,0 +1,18 @@
+html {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.site-header,
+.site-footer{
+    background-color: #ccc;
+}
+.location{
+    background-color: lavender;
+}
+
+.location iframe {
+    width: 100%;
+}
