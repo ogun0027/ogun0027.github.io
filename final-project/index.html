@@ -17,31 +17,33 @@
 </head>
 
 <body>
-    <div class="container">
-        <!-- adding an image -->
-        <img src="images/logo.png" alt="Three Star Media Logo">
-    </div>
-    <div>
-        <nav class="main-nav">
-            <!-- adding unordered list -->
-            <ul class="nav-list">
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Services</li>
-                <li>Team</li>
-                <li>Contact</li>
-            </ul>
-            <form class="search" action="/action_page.php">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-        </nav>
-    </div>
+    <header>
+        <div class="container">
+            <!-- adding an image -->
+            <img src="images/logo.png" alt="Three Star Media Logo">
+
+            <nav class="main-nav">
+                <!-- adding unordered list -->
+                <ul class="nav-list">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Services</li>
+                    <li>Team</li>
+                    <li>Contact</li>
+                </ul>
+                <form class="search" action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </nav>
+        </div>
+    </header>
     <main class="content">
-        <section>
-            <div>
+        <section class="banner">
+            <div class="container">
                 <!-- adding an image -->
-                <img src="images/main-banner.jpg" alt="Main Banner">
+                <!-- remove below image and place in css -->
+                <!-- <img src="images/main-banner.jpg" alt="Main Banner"> -->
                 <!-- Adding main content -->
 
                 <h1>Welcome to Three Star Media</h1>
@@ -52,14 +54,15 @@
                     pariatur
                     mollitia delectus aut officiis.
                 </p>
-                <p>
-                    Connect with us
-                </p>
+
+                <a href="#">Connect with us</a>
+
+
 
             </div>
         </section>
-        <section>
-            <div>
+        <section class="about">
+            <div class="container">
                 <!-- adding an image -->
                 <img src="images/about-us.jpg" alt="About Us">
                 <h2>About Us</h2>
@@ -72,60 +75,72 @@
                 </p>
             </div>
         </section>
-        <section>
-            <div>
+        <section class="services">
+            <div class="container">
                 <h3>Our Services</h3>
                 <!-- adding an image -->
-                <img src="images/digital.jpg" alt="Digital Transformation">
-                <h3>Digital Transformation</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque error consectetur, expedita eos
-                    accusantium placeat, asperiores a perferendis eligendi in omnis! Hic, molestiae sequi ea non eveniet
-                    illum sed harum.
-                </p>
-                <p>
-                    Digital Plans
-                </p>
-                <!-- adding an image -->
-                <img src="images/marketing.jpg" alt="Marketing">
-                <h4>Marketing</h4>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic eius consectetur cumque, facere ipsa
-                libero
-                sint quas quasi a error, id eveniet eos. Obcaecati molestias iusto ipsum aliquid quo itaque.
+                <div class="transform">
+                    <img src="images/digital.jpg" alt="Digital Transformation">
+                    <h3>Digital Transformation</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque error consectetur, expedita eos
+                        accusantium placeat, asperiores a perferendis eligendi in omnis! Hic, molestiae sequi ea non
+                        eveniet
+                        illum sed harum.
+                    </p>
 
-                <p>Marketing Plan</p>
-                <!-- adding an image -->
-                <img src="images/video.jpg" alt="Video Production">
-                <h4>Video Production</h4>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt tenetur soluta deserunt aperiam
-                maxime
-                harum suscipit repudiandae ex magnam! Porro, aut. Ipsum beatae dignissimos amet reprehenderit obcaecati
-                assumenda illum vel.
+                    <a href="#" class="button">Digital Plans</a>
 
-                <p>
-                    Video Plans
-                </p>
+                </div>
                 <!-- adding an image -->
-                <img src="images/web.jpg" alt="Web Development">
-                <h4>Web Development</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aliquam cupiditate minus explicabo
-                    eveniet facilis. Unde, voluptates. Error facere quo omnis, neque assumenda placeat doloribus
-                    voluptatem
-                    deleniti, excepturi distinctio ducimus.</p>
-                <p>Web Plans</p>
+                <div class="marketing">
+                    <img src="images/marketing.jpg" alt="Marketing">
+                    <h4>Marketing</h4>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic eius consectetur cumque, facere ipsa
+                    libero
+                    sint quas quasi a error, id eveniet eos. Obcaecati molestias iusto ipsum aliquid quo itaque.
+
+                    <a href="#" class="button">Marketing Plan</a>
+                </div>
+                <!-- adding an image -->
+                <div class="video">
+                    <img src="images/video.jpg" alt="Video Production">
+                    <h4>Video Production</h4>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt tenetur soluta deserunt aperiam
+                    maxime
+                    harum suscipit repudiandae ex magnam! Porro, aut. Ipsum beatae dignissimos amet reprehenderit
+                    obcaecati
+                    assumenda illum vel.
+                    <a href="#" class="button">Video Plans</a>
+                </div>
+                <!-- adding an image -->
+                <div class="web">
+                    <img src="images/web.jpg" alt="Web Development">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aliquam cupiditate minus
+                        explicabo
+                        eveniet facilis. Unde, voluptates. Error facere quo omnis, neque assumenda placeat doloribus
+                        voluptatem
+                        deleniti, excepturi distinctio ducimus.</p>
+                    <a href="#" class="button">Web Plans</a>
+                </div>
+
 
                 <!-- adding an image -->
-                <img src="images/print.jpg" alt="Print">
-                <h5>Print</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt nobis quisquam, qui doloremque
-                    unde
-                    amet quia non quod in fuga, odit nam minus ex debitis culpa consectetur, similique assumenda!</p>
-
-                <p>Print Plans</p>
+                <div class="print">
+                    <img src="images/print.jpg" alt="Print">
+                    <h5>Print</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt nobis quisquam, qui
+                        doloremque
+                        unde
+                        amet quia non quod in fuga, odit nam minus ex debitis culpa consectetur, similique assumenda!
+                    </p>
+                    <a href="#" class="button">Print Plans</a>
+                </div>
             </div>
         </section>
-        <section>
-            <div>
+        <section class="vision">
+            <div class="container">
                 <h5>Our Vision</h5>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto aspernatur consectetur maxime
@@ -134,46 +149,53 @@
                     numquam
                     consequatur enim at? Est!
                 </p>
-                <p>Learn More</p>
+
+                <a href="#">Learn More</a>
+
             </div>
         </section>
-        <section>
-            <div>
+        <section class="team">
+            <div class="container">
                 <h5>Our Team</h5>
                 <!-- adding an image -->
                 <img src="images/john.jpg" alt="John">
-                <h5>John Doe</h5>
-                CEO and Co-owner
+                <div class="john">
+                    <h5>John Doe</h5>
+                    CEO and Co-owner
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur saepe exercitationem quos!
-                    Tempore
-                    sequi veniam quo nobis itaque minima beatae doloribus, nulla eveniet. Quos, incidunt? Consequatur,
-                    voluptatibus. Maiores, doloremque beatae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur saepe exercitationem quos!
+                        Tempore
+                        sequi veniam quo nobis itaque minima beatae doloribus, nulla eveniet. Quos, incidunt?
+                        Consequatur,
+                        voluptatibus. Maiores, doloremque beatae!</p>
+                </div>
                 <!-- adding an image -->
                 <img src="images/bob.jpg" alt="Bob">
-                <h5>Bob Rite</h5>
-                CEO anf Co-owner
+                <div class="bob">
+                    <h5>Bob Rite</h5>
+                    CEO and Co-owner
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni repellendus consectetur
-                    praesentium
-                    facilis adipisci, repudiandae deleniti ipsa id. Culpa repellendus harum error assumenda enim
-                    perferendis
-                    eveniet dignissimos voluptates repellat.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni repellendus consectetur
+                        praesentium
+                        facilis adipisci, repudiandae deleniti ipsa id. Culpa repellendus harum error assumenda enim
+                        perferendis
+                        eveniet dignissimos voluptates repellat.</p>
+                </div>
             </div>
         </section>
-        <section>
+        <section class="container">
             <h5>Contact Us</h5>
             <p>Send us a message</p>
             <form action="/action_page.php">
-                <label for="fname">Full name:</label><br>
+                <label for="fname">Full name</label><br>
                 <input type="text" id="fname" name="fname" value=""><br>
-                E-mail:<br>
-                <input type="text" name="mail"><br>
-                Message:<br>
-                <input type="text" name="comment" size="50"><br><br>
+                <label for="email">E-mail</label><br>
+                <input type="email" id="email" name="mail"><br>
+                <label for="message">Message</label><br>
+                <textarea name="text" id="" cols="30" rows="10"></textarea>
                 <input type="submit" value="Send">
             </form>
-            <div>
+            <div class="hours">
                 <h5>Hours of operation</h5>
                 <table class="table">
                     <tr>
@@ -189,6 +211,8 @@
                         <td>Closed</td>
                     </tr>
                 </table>
+            </div>
+            <div class="location">
                 <h5>Location</h5>
                 <!-- adding google map -->
                 <iframe
@@ -200,10 +224,12 @@
     </main>
     <!-- website footer -->
     <footer class="site-footer">
-
-        <p>&copy; Copyright Three Star Media 2020</p>
-        <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
+        <div class="container">
+            <p>&copy; Copyright Three Star Media 2020</p>
+            <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
+        </div>
     </footer>
 
-
 </body>
+
+</html>
