@@ -138,6 +138,9 @@ html {
   font-size: 14px;
   box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+}
 
 .container {
   max-width: 1200px;
@@ -310,74 +313,295 @@ h3 {
   text-align: left;
   padding-bottom: 20px;
 }
-.button{
-    overflow: hidden;
-    padding-top: 20px;
-  }
-  
-  .button a {
-    background-color: #000;
-    color: #fff;
-    padding: 20px 50px;
-    font-size: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    float: left;
-    text-decoration: none;
-  }
-  
-  .button a::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 0;
-    border-top: 12px solid transparent;
-    border-left: 20px solid #fff;
-    border-bottom: 12px solid transparent;
-    margin-left: 30px;
-  }
-  h4{
-    font-size: 70px;
-  }
 
- .aboutimage img{
-    height:auto;
-    width:1200px;
-    box-sizing: border-box;
-    padding-top: 20px;
-    padding: 20px 20px;
-  }
+.button {
+  overflow: hidden;
+  padding-top: 20px;
+}
 
-  .services {
-    padding-top: 30px;
-  }
-  .services dd{
-    background-color: #FFE6AC;
-    padding: 20px;
-  }
-  .services p{
-      font-size: 30px;
-  }
-  .marketing .bg{
-    background-color: #FFE6AC;
-    padding: 20px;
-  }
-  .marketing p{
-    font-size: 30px;
-  }
-  .video .bg{
-    background-color: #FFE6AC;
-    padding: 20px;
-    font-size: 30px;
-  }
-  .web .bg{
-    background-color: #FFE6AC;
-    padding: 20px;
-    font-size: 30px;
-  }
-  .print .bg{
-    background-color: #FFE6AC;
-    padding:20px;
-    font-size: 30px;
-  }
+.button a {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float: left;
+  text-decoration: none;
+}
+
+.button a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-left: 20px solid #fff;
+  border-bottom: 12px solid transparent;
+  margin-left: 30px;
+}
+
+h4 {
+  font-size: 70px;
+}
+
+.aboutimage img {
+  height: auto;
+  width: 1200px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding: 20px 20px;
+}
+
+.services {
+  padding-top: 30px;
+}
+
+.services dd {
+  background-color: #FFE6AC;
+  padding: 20px;
+}
+
+.services p {
+  font-size: 30px;
+}
+
+.container .services img {
+  height: auto;
+  width: 1200px;
+}
+
+.marketing .bg {
+  background-color: #FFE6AC;
+  padding: 20px;
+}
+
+.marketing p {
+  font-size: 30px;
+}
+
+.marketing img {
+  height: auto;
+  width: 1200px;
+}
+
+.video .bg {
+  background-color: #FFE6AC;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.video img {
+  height: auto;
+  width: 1200px;
+}
+
+.web .bg {
+  background-color: #FFE6AC;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.web img {
+  height: auto;
+  width: 1200px;
+}
+
+.print .bg {
+  background-color: #FFE6AC;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.print img {
+  height: auto;
+  width: 1200px;
+}
+
+.vision {
+  background: url(../images/vision.jpg) 0 center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+
+.vision h4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.vision p {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.learn {
+  padding-top: 100px;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.learn {
+  background-color: rgb(0 0 0 / 35%);
+  color: #fff;
+  padding: 20px 50px;
+  padding-bottom: 40px;
+  float: left;
+}
+
+.learn a {
+  text-decoration: none;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 50px;
+}
+
+.team h4{
+  margin-bottom: 20px;
+}
+
+
+.team img{
+  height: auto;
+  width: 1200px;
+}
+
+.team .thick{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+  border-bottom: 4px solid #c78c06;
+ 
+}
+.john p{
+  font-size: 30px;
+  margin-bottom: 20px;
+  
+}
+
+.john{
+  background-color: #ffe6ac;
+  padding: 20px 20px;
+}
+
+.bob p{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.bob{
+  background-color: #ffe6ac;
+  padding: 20px 20px;
+}
+
+.contact h4{
+  margin-top: 30px;
+}
+.contact p{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.hours p{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.location p{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.location iframe{
+  width: 100%;
+}
+
+
+.contactus p b {
+  font-size: 40px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+.contactus ul {
+  padding-top: 15px;
+}
+
+.contactus p {
+  line-height: 40px;
+  font-size: 24px;
+}
+
+.contactus ul li input {
+  height: 68px;
+  width: 100%;
+}
+
+.contactus ul li textarea {
+  height: 200px;
+  width: 100%;
+}
+
+.contactus ul li button {
+  color: #ffe6ac;
+  height: 36px;
+  width: 80px;
+  font-size: 20px;
+  background-color: #444;
+  margin-top: 20px;
+}
+
+.contactus .hours{
+  margin-top: 20px;
+}
+
+.contactus ol {
+  display: flex;
+  height: 68px;
+  line-height: 68px;
+}
+
+.contactus ol.dah {
+  background-color: #FFE6AC;
+  text-align: center;
+}
+.contactus ol .dnh li {
+  text-align: center;
+}
+
+.contactus ol li {
+  border: 1px solid #444;
+  width: 50%;
+  font-size: 20px;
+  text-align: left;
+  text-indent: 20px;
+}
+.hours{ padding: 10px 0 20px;}
+
+.site-footer{
+  background-color: #222;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #c78c06;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.site-footer .copy{
+  padding-bottom: 20px;
+}
+
+.site-footer p a{
+  color:  #c78c06;
+}
