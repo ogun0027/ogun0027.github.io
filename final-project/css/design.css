@@ -605,3 +605,28 @@ h4 {
 .site-footer p a{
   color:  #c78c06;
 }
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 760px){
+  
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    /* margin: 20px; */
+    text-align: center;
+    /* padding-left: 10px; */
+    min-width: fit-content;
+    padding: 20px 35px;
+    font-size: 1em;
+}
+
+ .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+}
