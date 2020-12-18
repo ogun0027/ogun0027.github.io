@@ -354,6 +354,8 @@ h4 {
   padding: 20px 20px;
 }
 
+/* Our services styling */
+
 .services {
   padding-top: 30px;
 }
@@ -464,6 +466,8 @@ h4 {
   font-size: 50px;
 }
 
+/* Our team styling */
+
 .team h4{
   margin-bottom: 20px;
 }
@@ -515,6 +519,8 @@ h4 {
   font-weight: bold;
 }
 
+/* Location styling */
+
 .location p{
   font-size: 30px;
   font-weight: bold;
@@ -526,7 +532,7 @@ h4 {
   width: 100%;
 }
 
-
+/* Contact page styling */
 .contactus p b {
   font-size: 40px;
   line-height: 36px;
@@ -588,6 +594,8 @@ h4 {
 }
 .hours{ padding: 10px 0 20px;}
 
+/* Footer styling */
+
 .site-footer{
   background-color: #222;
   max-width: 1400px;
@@ -613,9 +621,7 @@ h4 {
   nav ul li{
     list-style: none;
     display: inline-block;
-    /* margin: 20px; */
     text-align: center;
-    /* padding-left: 10px; */
     min-width: fit-content;
     padding: 20px 35px;
     font-size: 1em;
