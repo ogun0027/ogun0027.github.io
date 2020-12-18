@@ -138,7 +138,13 @@ html {
   font-size: 14px;
   box-sizing: border-box;
 }
-h1, h2, h3, h4, h5, h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
 }
 
@@ -468,67 +474,69 @@ h4 {
 
 /* Our team styling */
 
-.team h4{
+.team h4 {
   margin-bottom: 20px;
 }
 
 
-.team img{
+.team img {
   height: auto;
   width: 1200px;
 }
 
-.team .thick{
+.team .thick {
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 30px;
   border-bottom: 4px solid #c78c06;
- 
-}
-.john p{
-  font-size: 30px;
-  margin-bottom: 20px;
-  
+
 }
 
-.john{
+.john p {
+  font-size: 30px;
+  margin-bottom: 20px;
+
+}
+
+.john {
   background-color: #ffe6ac;
   padding: 20px 20px;
 }
 
-.bob p{
+.bob p {
   font-size: 30px;
   margin-bottom: 20px;
 }
 
-.bob{
+.bob {
   background-color: #ffe6ac;
   padding: 20px 20px;
 }
 
-.contact h4{
+.contact h4 {
   margin-top: 30px;
 }
-.contact p{
+
+.contact p {
   font-size: 30px;
   font-weight: bold;
 }
 
-.hours p{
+.hours p {
   font-size: 30px;
   font-weight: bold;
 }
 
 /* Location styling */
 
-.location p{
+.location p {
   font-size: 30px;
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.location iframe{
+.location iframe {
   width: 100%;
 }
 
@@ -567,7 +575,7 @@ h4 {
   margin-top: 20px;
 }
 
-.contactus .hours{
+.contactus .hours {
   margin-top: 20px;
 }
 
@@ -581,6 +589,7 @@ h4 {
   background-color: #FFE6AC;
   text-align: center;
 }
+
 .contactus ol .dnh li {
   text-align: center;
 }
@@ -592,11 +601,14 @@ h4 {
   text-align: left;
   text-indent: 20px;
 }
-.hours{ padding: 10px 0 20px;}
+
+.hours {
+  padding: 10px 0 20px;
+}
 
 /* Footer styling */
 
-.site-footer{
+.site-footer {
   background-color: #222;
   max-width: 1400px;
   margin: 0 auto;
@@ -606,33 +618,33 @@ h4 {
   padding-bottom: 30px;
 }
 
-.site-footer .copy{
+.site-footer .copy {
   padding-bottom: 20px;
 }
 
-.site-footer p a{
-  color:  #c78c06;
+.site-footer p a {
+  color: #c78c06;
 }
 
 /* DESKTOP STYLES */
 
-@media screen and (min-width: 760px){
-  
-  nav ul li{
+@media screen and (min-width: 760px) {
+
+  nav ul li {
     list-style: none;
     display: inline-block;
     text-align: center;
     min-width: fit-content;
     padding: 20px 35px;
     font-size: 1em;
-}
+  }
 
- .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-left: 90px;
-        padding-right: 90px;
-    }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
 
 }
