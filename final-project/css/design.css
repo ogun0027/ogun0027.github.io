@@ -626,7 +626,11 @@ h4 {
   color: #c78c06;
 }
 
-/* DESKTOP STYLES */
+/* 
+======================================================================
+                      DESKTOP STYLES
+======================================================================
+*/
 
 @media screen and (min-width: 760px) {
 
@@ -645,6 +649,42 @@ h4 {
     justify-content: space-between;
     padding-left: 90px;
     padding-right: 90px;
+    height: 140px;
   }
+
+  .logo {
+    background: none;
+  }
+
+
+
+
+.about{
+  display: grid;
+  grid-template-areas:
+  "image texts";
+}
+  .aboutimage: image;
+  .abouttext: texts;
+}
+   
+        grid-template-areas:
+            "title title title title title title"
+            "digital digital digital marketing marketing marketing"
+            "video video web web print print";
+
+}
+
+h3{
+  grid-area: title;
+}
+
+.digital{
+  grid-area: digital;
+}
+
+.marketing{
+  grid-area:marketing;
+}
 
 }
