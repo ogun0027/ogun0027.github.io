@@ -1,0 +1,263 @@
+html,
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+html {
+    background-color: #f7f7ff;
+    background-image: url("scooter.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+    width: auto;
+    height: auto;
+}
+
+
+header img {
+    width: 100px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.content {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.content h1 {
+    width: 400px;
+    margin-top: -40px;
+}
+
+.content p {
+    font-size: 30px;
+    width: 550px;
+    margin-top: -40px;
+}
+
+/* Putting two paragraphs on the same row to appear the way they do in the mockup */
+.appstatus {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Created a card to place the form on */
+.applynow {
+
+    box-shadow: 9px 4px 9px 4px grey;
+    background-color: white;
+    transition: 0.5s;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    margin-left: 70%;
+    margin-bottom: 500px;
+    margin-top: -380px;
+}
+
+.applynow:hover {
+    box-shadow: 0 8px 16px 0 grey;
+}
+
+.applynow h1 {
+    font-size: 40px;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+.applynow p {
+    padding: 10px;
+    font-size: 30px;
+    margin-top: auto;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* Creating a space between the sections of the form */
+.form1 {
+    margin-bottom: 20px;
+}
+
+/* Giving the input fields a full width */
+.form input {
+    width: 100%;
+}
+
+/* Moving the checkbox in the form to the right */
+.form2 {
+    padding-left: 30px;
+}
+
+.appstatus {
+    padding: 10px;
+}
+
+.appstatus p {
+    font-size: 15px;
+}
+
+/* Removing the space between this paragraph and the one before it. */
+.appstatus .status {
+    padding-left: 0;
+}
+
+.status a {
+    color: #ff8480
+}
+
+.submitbtn {
+    background-color: #57eeab;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.footer h2 {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.footer p {
+    font-size: 15px;
+    padding-left: 100px;
+}
+
+.footerform {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -30px;
+
+}
+
+.footer {
+    background-color: #FFFD8C;
+    height: 200px;
+    width: auto;
+    margin-top: -300px;
+
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.spacecity {
+    padding-left: 30px;
+}
+
+.calculate {
+    background-color: #ff8480;
+    color: white;
+}
+
+.spacecalc {
+    padding-left: 30px;
+}
+
+.grid {
+    height: 100%;
+    width: 100%;
+}
+
+.instagram {
+    padding-right: 15px;
+}
+
+.twitter {
+    padding-right: 15px;
+}
+
+.facebook {
+    padding-right: 15px;
+}
+
+.linkedin {
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .content h1 {
+        margin-top: -90px;
+    }
+
+    .content p {
+        font-size: 27px;
+    }
+
+    html {
+        background-image: url("scooter.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 250px;
+        width: auto;
+        height: auto;
+    }
+
+
+    .applynow {
+        margin-top: 100px;
+        margin-right: 10px;
+        margin-left: -10px;
+
+    }
+
+    .footer {
+        margin-top: -400px;
+        width: 865px;
+    }
+
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .facebook {
+        order: -1;
+        padding-right: 60px;
+    }
+
+    .instagram {
+        padding-right: 60px;
+    }
+
+    .twitter {
+        padding-right: 60px;
+    }
+
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="grid">
+        <header class="logo">
+            <img src="logo.png" alt="Logo">
+        </header>
+        <section class="content">
+            <h1>Want to be your own boss?</h1>
+            <p>Start today and make up to $30/hr driving your own vehicle with Dash!
+            </p>
+        </section>
+        <section class="applynow">
+            <form action="/action_page.php">
+                <div class="container">
+                    <h1>Apply Now</h1>
+                    <p>Enter your info to get started.</p>
+
+                    <div class="form">
+                        <div class="form1">
+                            <label for="firt-name"><b></b></label>
+                            <input type="text" placeholder="First name" name="fname" id="fname" required>
+                        </div>
+                        <div class="form1">
+                            <label for="last-name"><b></b></label>
+                            <input type="last-name" placeholder="Last name" name="lname" id="lname" required>
+                        </div>
+
+                        <div class="form1">
+                            <label for="email"><b></b></label>
+                            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                        </div>
+
+                        <div class="form1">
+
+                            <label for="phone-number"><b></b></label>
+                            <input type="phone-number" placeholder="Phone number" name="phone-number" id="phone-number"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="form2">
+                        <input type="checkbox" id="terms" name="terms" value="Agree">
+                        <label for="terms"> I agree to dash terms</label><br>
+
+                        <button type="submit" class="submitbtn">DRIVE WITH US</button>
+                    </div>
+                    <!-- Putting this div in different paragraphs so they can be styled differently -->
+                    <div class="appstatus">
+                        <p>Already aplied?</p>
+                        <p class="status"><a href="#">Check your application status here</a></p>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+</body>
+<section class="footergrid">
+    <footer class="footer">
+        <h2>See how much you can earn with Dash</h2>
+        <p>how many hours do you want to drive with us this week?</p>
+        <div class="footerform">
+            <label for="hours"><b></b></label>
+            <input type="hours" placeholder="Hours" name="hours" id="hours" required>
+            <div class="spacecity">
+                <label for="city"><b></b></label>
+                <input type="city" placeholder="City" name="city" id="city" required>
+            </div>
+            <div class="spacecalc">
+                <button type="submit" class="calculate">CALCULATE</button>
+            </div>
+        </div>
+
+        <section class="socials">
+            <div class="instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30.642" height="30.635" viewBox="0 0 30.642 30.635">
+                    <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram"
+                        d="M15.319,9.639a7.854,7.854,0,1,0,7.854,7.854A7.842,7.842,0,0,0,15.319,9.639Zm0,12.961a5.106,5.106,0,1,1,5.106-5.106A5.116,5.116,0,0,1,15.319,22.6ZM25.327,9.317A1.832,1.832,0,1,1,23.5,7.485,1.828,1.828,0,0,1,25.327,9.317Zm5.2,1.859a9.066,9.066,0,0,0-2.475-6.419,9.126,9.126,0,0,0-6.419-2.475c-2.529-.144-10.11-.144-12.64,0A9.113,9.113,0,0,0,2.577,4.751,9.1,9.1,0,0,0,.1,11.17C-.041,13.7-.041,21.28.1,23.81a9.066,9.066,0,0,0,2.475,6.419A9.137,9.137,0,0,0,9,32.7c2.529.144,10.11.144,12.64,0a9.066,9.066,0,0,0,6.419-2.475,9.126,9.126,0,0,0,2.475-6.419C30.673,21.28,30.673,13.706,30.529,11.177ZM27.262,26.523a5.17,5.17,0,0,1-2.912,2.912c-2.017.8-6.8.615-9.03.615s-7.021.178-9.03-.615a5.17,5.17,0,0,1-2.912-2.912c-.8-2.017-.615-6.8-.615-9.03s-.178-7.021.615-9.03A5.17,5.17,0,0,1,6.289,5.551c2.017-.8,6.8-.615,9.03-.615s7.021-.178,9.03.615a5.17,5.17,0,0,1,2.912,2.912c.8,2.017.615,6.8.615,9.03S28.062,24.514,27.262,26.523Z"
+                        transform="translate(0.005 -2.176)" fill="#333131" />
+                </svg>
+            </div>
+
+            <div class="twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30.625" height="30.625" viewBox="0 0 30.625 30.625">
+                    <path id="Icon_awesome-twitter-square" data-name="Icon awesome-twitter-square"
+                        d="M27.344,2.188H3.281A3.282,3.282,0,0,0,0,5.469V29.531a3.282,3.282,0,0,0,3.281,3.281H27.344a3.282,3.282,0,0,0,3.281-3.281V5.469A3.282,3.282,0,0,0,27.344,2.188ZM24,13.043c.014.191.014.39.014.581A12.669,12.669,0,0,1,11.259,26.38a12.7,12.7,0,0,1-6.884-2.01,9.445,9.445,0,0,0,1.08.055,8.989,8.989,0,0,0,5.564-1.914,4.489,4.489,0,0,1-4.19-3.11,4.832,4.832,0,0,0,2.023-.082,4.484,4.484,0,0,1-3.589-4.4v-.055a4.48,4.48,0,0,0,2.023.567,4.474,4.474,0,0,1-2-3.732A4.427,4.427,0,0,1,5.9,9.434a12.73,12.73,0,0,0,9.242,4.689,4.493,4.493,0,0,1,7.649-4.095,8.785,8.785,0,0,0,2.844-1.08,4.472,4.472,0,0,1-1.969,2.468,8.922,8.922,0,0,0,2.584-.7A9.437,9.437,0,0,1,24,13.043Z"
+                        transform="translate(0 -2.188)" fill="#333131" />
+                </svg>
+            </div>
+
+            <div class="facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30.625" height="30.625" viewBox="0 0 30.625 30.625">
+                    <path id="Icon_awesome-facebook-square" data-name="Icon awesome-facebook-square"
+                        d="M27.344,2.188H3.281A3.281,3.281,0,0,0,0,5.469V29.531a3.281,3.281,0,0,0,3.281,3.281h9.382V22.4H8.357V17.5h4.307V13.765c0-4.249,2.529-6.6,6.4-6.6a26.09,26.09,0,0,1,3.8.331v4.17H20.725a2.451,2.451,0,0,0-2.763,2.648V17.5h4.7l-.752,4.9h-3.95V32.813h9.382a3.281,3.281,0,0,0,3.281-3.281V5.469a3.281,3.281,0,0,0-3.281-3.281Z"
+                        transform="translate(0 -2.188)" fill="#333131" />
+                </svg>
+            </div>
+
+            <div class="linkedin">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30.625" height="30.625" viewBox="0 0 30.625 30.625">
+                    <path id="Icon_awesome-linkedin" data-name="Icon awesome-linkedin"
+                        d="M28.438,2.188H2.181A2.2,2.2,0,0,0,0,4.4V30.6a2.2,2.2,0,0,0,2.181,2.208H28.438A2.2,2.2,0,0,0,30.625,30.6V4.4A2.2,2.2,0,0,0,28.438,2.188ZM9.256,28.438H4.717V13.822H9.263V28.438ZM6.986,11.826A2.632,2.632,0,1,1,9.618,9.194,2.633,2.633,0,0,1,6.986,11.826ZM26.271,28.438H21.731V21.328c0-1.7-.034-3.876-2.358-3.876-2.365,0-2.728,1.846-2.728,3.753v7.232H12.106V13.822h4.354v2h.062a4.781,4.781,0,0,1,4.3-2.358c4.594,0,5.448,3.028,5.448,6.966Z"
+                        transform="translate(0 -2.188)" fill="#333131" />
+                </svg>
+            </div>
+
+
+        </section>
+
+    </footer>
+</section>
+</main>
+
+</html>
