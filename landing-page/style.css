@@ -244,7 +244,9 @@ input[type=phone-number] {
     padding-right: 15px;
 }
 
-@media screen and (max-width: 900px) {
+/* Tab Styling */
+
+@media screen and (max-width: 1100px) {
     .grid {
         display: flex;
         flex-direction: column;
