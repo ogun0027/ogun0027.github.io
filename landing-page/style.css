@@ -108,6 +108,7 @@ input[type=last-name] {
     padding: 12px 0px;
     box-sizing: border-box;
 }
+
 input[type=email] {
     background-color: #f7f7ff;
     border: none;
@@ -115,6 +116,7 @@ input[type=email] {
     padding: 12px 0px;
     box-sizing: border-box;
 }
+
 input[type=phone-number] {
     background-color: #f7f7ff;
     border: none;
@@ -244,13 +246,23 @@ input[type=phone-number] {
     padding-right: 15px;
 }
 
-/* Tab Styling */
+/*============= Tab Styling =============== */
 
 @media screen and (max-width: 1100px) {
+
+    html,
+    body {
+        width: 100%;
+    }
+
     .grid {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .logo {
+        margin-left: -460px;
     }
 
 
@@ -266,10 +278,13 @@ input[type=phone-number] {
     html {
         background-image: url("scooter.png");
         background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 500px;
         background-position: center;
-        background-size: 250px;
         width: auto;
-        height: auto;
+        height: 50%;
+
+
     }
 
 
@@ -281,8 +296,8 @@ input[type=phone-number] {
     }
 
     .footer {
-        margin-top: -400px;
-        width: 865px;
+        width: auto;
+        height: auto;
     }
 
 
@@ -304,6 +319,106 @@ input[type=phone-number] {
 
     .twitter {
         padding-right: 60px;
+    }
+
+}
+
+/* ============= Mobile Styling =================*/
+
+@media screen and (max-width: 700px) {
+
+    /* Decreased the width so the texts can appear the way they do in the mockup */
+    .content h1 {
+        width: 300px;
+    }
+
+    .content p {
+        width: 270px;
+    }
+
+    .logo {
+        margin-left: -200px;
+    }
+
+    html {
+        background-image: url("scooter.png");
+        background-repeat: no-repeat;
+        background-size: 200px;
+        background-position: center;
+        width: auto;
+        height: 50%;
+    }
+
+    .applynow {
+        margin-left: 30px;
+        width: auto;
+    }
+
+    .submitbtn {
+        margin-right: 40px;
+    }
+
+    .footer {
+        width: auto;
+        height: auto;
+        margin-right: 50px;
+    }
+
+
+    .footer h2 {
+        width: 250px;
+        font-size: 25px;
+        margin-left: 30px;
+        margin-right: -100px;
+    }
+
+    .footer p {
+        width: 260px;
+        font-size: 20px;
+        margin-left: 30px;
+
+    }
+
+    input[type=hours] {
+        width: 50px;
+        padding-left: -50px;
+        height: 15px;
+        margin-left: 200px;
+        margin-right: 200px;
+        border: none;
+        font-size: 13px;
+    }
+
+    input[type=city] {
+        margin-left: -220px;
+
+        border: none;
+        font-size: 13px;
+    }
+
+    .calculate {
+        margin-top: 30px;
+        margin-left: -300px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    button[type=calculate] {
+        width: 300px;
+    }
+
+    .hours {
+        padding-left: -190px;
+    }
+
+    .spacecalc {
+        padding-right: 180px;
+        margin-left: -400px;
+    }
+
+    .spacecity {
+        padding-right: 370px;
+        ;
     }
 
 }
