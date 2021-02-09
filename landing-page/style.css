@@ -93,7 +93,7 @@ header img {
 }
 
 /* Changing the background colour of the form */
-input[type=first-name] {
+input[type=fname] {
     background-color: #f7f7ff;
     border: none;
     font-size: 20px;
