@@ -746,7 +746,7 @@ Tablet Styling
 
     /* Homepage Desktop styling begins */
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 900px) {
 
         html,
         body {
