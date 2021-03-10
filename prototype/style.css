@@ -841,12 +841,15 @@ Tablet Styling
         }
 
         .construction img {
-          padding-left: 1200px;
-          position: relative; top: -450px;
+            padding-left: 1200px;
+            position: relative;
+            top: -450px;
         }
+
         .about {
             width: 2250px;
         }
+
         .www {
             display: flex;
             flex-direction: row;
@@ -857,23 +860,28 @@ Tablet Styling
             position: relative;
             left: 220px;
         }
+
         .www h2 {
             position: relative;
             top: -70px;
             left: 55px;
         }
+
         .services {
             width: 2250px;
         }
+
         .brkimg {
             padding-left: 190px;
             padding-top: 70px;
         }
+
         .break {
             position: relative;
             top: -250px;
             left: 800px;
         }
+
         .grey {
             background-color: white;
             position: relative;
@@ -881,21 +889,24 @@ Tablet Styling
             font-size: 21px;
             width: 70%
         }
-        
+
         .grey h3 {
             color: #26a682;
             position: relative;
             bottom: 15px;
         }
+
         .grey p {
             position: relative;
             bottom: 45px;
         }
+
         .legs {
             position: relative;
             left: 1200px;
             top: -250px;
         }
+
         .subscribe {
             width: 2250px;
         }
