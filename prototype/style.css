@@ -802,11 +802,25 @@ Tablet Styling
 
         .president {
             width: 2190px;
+            margin-bottom: -30px;
+            margin-top: -10px;
         }
 
         .president img {
-            position: absolute;
-            left: 0px;
+            position: relative;
+            right: 720px;
+            top: 100px;
+        }
+        .president h3 {
+            position: relative;
+            right: 250px;
+            bottom: 50px;
+            margin-bottom: -30px;
+        }
+        .president p {
+            width: 1140px;
+            position: relative;
+            bottom: 115px;
         }
 
         .ent {
