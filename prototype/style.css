@@ -750,11 +750,12 @@ Tablet Styling
 
         html,
         body {
-            width: 800px;
+            width: 1280px;
         }
 
         .header {
-            width: 2270px;
+            max-width: 100%;
+            
         }
 
         .discimage {
