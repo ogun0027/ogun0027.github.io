@@ -751,6 +751,7 @@ Tablet Styling
         html,
         body {
             width: 1200px;
+            overflow-x: hidden;
         }
 
         .header {
