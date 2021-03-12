@@ -172,7 +172,7 @@ ul {
 }
 
 .skl {
-    width: 50%;
+    width: 50%
 }
 
 .skl2 {
@@ -750,12 +750,14 @@ Tablet Styling
 
         html,
         body {
-            width: 1200px;
-            overflow-x: hidden;
+            max-width: 100%;
+            height: auto;
         }
 
         .header {
             max-width: 100%;
+            height: auto;
+            background-color: yellow;
         }
 
         .discimage {
