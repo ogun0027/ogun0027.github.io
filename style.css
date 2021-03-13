@@ -837,29 +837,31 @@ Tablet Styling
             top: 20px;
             display: inline-block;
             width: 200px;
-       
-        
+        }
 
         .skl {
-            margin-top: -350px;
+            margin-top: -500px;
         }
 
         .skl img {
-            width: 1150px;
+            width: 750px;
         }
 
         .skl2 {
             padding-left: 1150px;
             margin-top: -350px;
-            width: 900px;
-
+            width: 750px;
+            position: relative;
+            right: 420px;
+            bottom: 50px;
+           
         }
 
         .president {
             width: 1500px;
             height: auto;
-            margin-bottom: -30px;
-            margin-top: -10px;
+            position: relative;
+            bottom: 40px;
         }
 
         .president img {
@@ -881,23 +883,36 @@ Tablet Styling
         }
 
         .ent {
-            padding-left: 1390px;
-            width: 800px;
-            margin-top: 30px;
+            width: 750px;
+            position: relative;
+            left: 750px;
+        }
+        .ent img {
+            padding-bottom: 30px;
         }
 
         .ent2 {
-            margin-top: -450px;
-            padding-bottom: 300px;
+            width: 750px;
+            position: relative;
+            bottom: 500px;
+        }
+        .ent2 p {
+            padding-right: 60px;
+        }
+        .ent2 a {
+            position: relative;
+            top: 60px;
         }
 
         .footer {
             width: 1500px;
-            height: auto;
+            position: relative;
+            margin-top: -422px;
         }
 
         .follow {
             padding-bottom: 0px;
+          
         }
 
        
