@@ -761,10 +761,15 @@ Tablet Styling
 
         .discimage {
             padding-left: 1500px;
+            width: 750px;
+            height: auto;
+            position: relative;
+            right: 800px;
+            bottom: 270px;
         }
 
         .discimage img {
-            margin-top: -600px;
+            margin-top: -380px;
             width: 700px;
             height: auto;
         }
@@ -776,14 +781,64 @@ Tablet Styling
         .container {
             margin: 0px 0px 0px 25px;
         }
+        .arc {
+            width: 750px;
+        }
+        .arc p {
+            margin-top: -100px;
+        }
+        .icons p {
+            font-size: 20px;
+            padding-top: 50px;
+            width: 150px;
+        }
+        .bowling {
+            position: relative;
+            left: 89px;
+            top: 6px;
+        }
+        .bl {
+            position: relative;
+            right: 16px;
+        }
+        .dumbbell i {
+            position: relative;
+            right: 12px;
+        }
 
         .cl {
             padding-right: 125px;
+            position: relative;
+        }
+        .climbing p {
+            position: relative;
+            bottom: 8px;
+            left: 28px;
         }
 
         .dumbbell {
             padding-top: 6px;
         }
+        .bball {
+            position: relative;
+            right: 30px;
+            top: 8px;
+        }
+        .ic {
+            position: relative;
+            right: 20px;
+        }
+        
+        }
+        .getstarted {
+            font-size: 30px;
+            position: relative;
+            left: 180px;
+            top: 20px;
+            display: inline-block;
+            width: 200px;
+       
+        
 
         .skl {
             margin-top: -350px;
@@ -801,27 +856,28 @@ Tablet Styling
         }
 
         .president {
-            width: 1900px;
+            width: 1500px;
+            height: auto;
             margin-bottom: -30px;
             margin-top: -10px;
-            
         }
 
         .president img {
             position: relative;
-            right: 720px;
+            right: 500px;
             top: 100px;
         }
         .president h3 {
             position: relative;
-            right: 250px;
+            right: 0px;
             bottom: 50px;
             margin-bottom: -30px;
         }
         .president p {
-            width: 1140px;
+            width: 800px;
             position: relative;
             bottom: 115px;
+            right: 100px;
         }
 
         .ent {
