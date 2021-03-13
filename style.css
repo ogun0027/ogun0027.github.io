@@ -836,8 +836,8 @@ Tablet Styling
         }
 
         .footer {
-            width: 2200px;
-
+            width: 1500px;
+            height: auto;
         }
 
         .follow {
