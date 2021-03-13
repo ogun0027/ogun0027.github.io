@@ -850,10 +850,11 @@ Tablet Styling
         .skl2 {
             padding-left: 1150px;
             margin-top: -350px;
-            width: 750px;
+            width: 700px;
             position: relative;
             right: 420px;
             bottom: 50px;
+           
            
         }
 
@@ -922,60 +923,73 @@ Tablet Styling
         /* About Page Desktop Styling Begins */
 
         .construction {
-            width: 900px;
+            width: 750px;
             margin-bottom: -300px;
             position: relative;
             left: 70px;
         }
 
         .construction img {
-            padding-left: 1200px;
+            width: 750px;
             position: relative;
-            top: -450px;
+            bottom: 450px;
+            left: 600px;
         }
 
         .about {
-            width: 2250px;
+            width: 1500px;
         }
 
         .www {
             display: flex;
             flex-direction: row;
             padding-top: 80px;
-            width: 150%;
+            width: 1500px;
             margin-bottom: 80px;
             margin-top: 80px;
             position: relative;
-            left: 220px;
+            right: 160px;
         }
 
         .www h2 {
             position: relative;
             top: -70px;
-            left: 55px;
+            left: 65px;
         }
 
         .services {
-            width: 2250px;
+            width: 1500px;
         }
 
         .brkimg {
-            padding-left: 190px;
-            padding-top: 70px;
+            position: relative;
+            left: 80px;
+            top: 50px;
         }
 
         .break {
+            width: 750px;
             position: relative;
             top: -250px;
-            left: 800px;
+            left: 650px;
         }
 
         .grey {
-            background-color: white;
             position: relative;
-            left: 190px;
+            left: 80px;
             font-size: 21px;
-            width: 70%
+            width: 600px;
+            bottom: 80px;
+            background-color: white;
+        }
+        
+        .legs {
+            width: 750px;
+        }
+        .legs img{
+            position: relative;
+            right: 500px;
+            bottom: 85px;
         }
 
         .grey h3 {
