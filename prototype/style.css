@@ -172,7 +172,7 @@ ul {
 }
 
 .skl {
-    width: 50%
+    width: 50%;
 }
 
 .skl2 {
@@ -746,30 +746,25 @@ Tablet Styling
 
     /* Homepage Desktop styling begins */
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 900px) {
 
         html,
         body {
-            max-width: 100%;
-            height: auto;
+            width: 1280px;
         }
 
         .header {
-            width: 1500px;
-            height: auto;
+            max-width: 100%;
+            
+            
         }
 
         .discimage {
             padding-left: 1500px;
-            width: 750px;
-            height: auto;
-            position: relative;
-            right: 800px;
-            bottom: 200px;
         }
 
         .discimage img {
-            margin-top: -380px;
+            margin-top: -600px;
             width: 700px;
             height: auto;
         }
@@ -781,242 +776,134 @@ Tablet Styling
         .container {
             margin: 0px 0px 0px 25px;
         }
-        .arc {
-            width: 750px;
-            position: relative;
-            bottom: 40px;
-        }
-        .arc p {
-            margin-top: -100px;
-        }
-        .icons p {
-            font-size: 20px;
-            padding-top: 50px;
-            width: 150px;
-        }
-        .bowling {
-            position: relative;
-            left: 89px;
-            top: 6px;
-        }
-        .bl {
-            position: relative;
-            right: 16px;
-        }
-        .dumbbell i {
-            position: relative;
-            right: 12px;
-        }
 
         .cl {
             padding-right: 125px;
-            position: relative;
-        }
-        .climbing p {
-            position: relative;
-            bottom: 8px;
-            left: 28px;
         }
 
         .dumbbell {
             padding-top: 6px;
         }
-        .bball {
-            position: relative;
-            right: 30px;
-            top: 8px;
-        }
-        .ic {
-            position: relative;
-            right: 20px;
-        }
-        
-        }
-        .getstarted {
-            font-size: 30px;
-            position: relative;
-            left: 180px;
-            top: 20px;
-            display: inline-block;
-            width: 200px;
-        }
 
         .skl {
-            margin-top: -500px;
+            margin-top: -350px;
         }
 
         .skl img {
-            width: 750px;
-            position: relative;
-            left: 30px;
-            bottom: 90px;
+            width: 1150px;
         }
 
         .skl2 {
             padding-left: 1150px;
             margin-top: -350px;
-            width: 650px;
-            position: relative;
-            right: 390px;
-            bottom: 50px;
-            font-size: 20px;
-           
+            width: 900px;
+
         }
 
         .president {
-            width: 1500px;
-            height: auto;
-            position: relative;
-            bottom: 40px;
-            margin-left: -30px;
+            width: 2190px;
+            margin-bottom: -30px;
+            margin-top: -10px;
         }
 
         .president img {
             position: relative;
-            right: 500px;
+            right: 720px;
             top: 100px;
         }
         .president h3 {
             position: relative;
-            right: 0px;
+            right: 250px;
             bottom: 50px;
             margin-bottom: -30px;
         }
         .president p {
-            width: 800px;
+            width: 1140px;
             position: relative;
             bottom: 115px;
-            right: 100px;
         }
 
         .ent {
-            width: 750px;
-            position: relative;
-            left: 750px;
-        }
-        .ent img {
-            padding-bottom: 30px;
-            position: relative;
-            right: 30px;
+            padding-left: 1390px;
+            width: 800px;
+            margin-top: 30px;
         }
 
         .ent2 {
-            width: 750px;
-            position: relative;
-            bottom: 500px;
-        }
-        .ent2 p {
-            padding-right: 60px;
-        }
-        .ent2 a {
-            position: relative;
-            top: 60px;
+            margin-top: -450px;
+            padding-bottom: 300px;
         }
 
         .footer {
-            width: 1500px;
-            position: relative;
-            margin-top: -422px;
-            margin-left: -30px;
-            margin-right: -20px;
+            width: 2200px;
+
         }
 
         .follow {
             padding-bottom: 0px;
-          
         }
 
-       
+        .backtotop {}
 
         /* Homepage Desktop Styling Ends */
 
         /* About Page Desktop Styling Begins */
 
         .construction {
-            width: 750px;
+            width: 900px;
             margin-bottom: -300px;
             position: relative;
             left: 70px;
         }
 
         .construction img {
-            width: 750px;
+            padding-left: 1200px;
             position: relative;
-            bottom: 450px;
-            left: 600px;
+            top: -450px;
         }
 
         .about {
-            width: 1500px;
+            width: 2250px;
         }
 
         .www {
             display: flex;
             flex-direction: row;
             padding-top: 80px;
-            width: 1500px;
+            width: 150%;
             margin-bottom: 80px;
             margin-top: 80px;
             position: relative;
-            right: 160px;
+            left: 220px;
         }
 
         .www h2 {
             position: relative;
             top: -70px;
-            left: 65px;
+            left: 55px;
         }
 
         .services {
-            width: 1500px;
+            width: 2250px;
         }
 
         .brkimg {
-            position: relative;
-            left: 80px;
-            top: 50px;
+            padding-left: 190px;
+            padding-top: 70px;
         }
 
         .break {
-            width: 750px;
             position: relative;
             top: -250px;
-            left: 650px;
+            left: 800px;
         }
 
         .grey {
-            position: relative;
-            left: 80px;
-            font-size: 21px;
-            width: 600px;
-            bottom: 80px;
             background-color: white;
-        }
-        
-        .legs {
-            width: 750px;
-        }
-        .legs img{
             position: relative;
-            right: 500px;
-            bottom: 85px;
-        }
-        .subscribe {
-            width: 1500px;
-            position: relative;
-            bottom: 290px;
-            display: flex;
-            flex-direction: row;
-        }
-        .subscribe p {
-            position: relative;
-            left: 450px;
-            top: 23px;
-        }
-        .subscribe a {
-            position: relative;
-            right: 120px;
-            bottom: 7px;
+            left: 190px;
+            font-size: 21px;
+            width: 70%
         }
 
         .grey h3 {
@@ -1035,14 +922,11 @@ Tablet Styling
             left: 1200px;
             top: -250px;
         }
-        .fitness img {
-            width: 600px;
-            height: 300px;
-            position: relative;
-            bottom: 250px;
-        }
 
-        
+        .subscribe {
+            width: 2250px;
+        }
 
 
     }
+}
