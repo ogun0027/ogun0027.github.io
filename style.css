@@ -1040,6 +1040,64 @@ Tablet Styling
             height: 300px;
             position: relative;
             bottom: 250px;
+            left: 150px;
+        }
+        .nynm {
+            width: 750px;
+            position: relative;
+            bottom: 562px;
+            left: 710px;
+        }
+        .grey2 {
+            width: 750px;
+            position: relative;
+            left: 50px;
+            bottom: 450px;
+        }
+        .grey3 img{
+            width: 600px;
+            height: 254px;
+            position: relative;
+            left: 800px;
+            bottom: 702px;
+        }
+        .thankyou h1 {
+            font-size: 55px;
+            position: relative;
+            left: 205px;
+            bottom: 690px;
+        }
+       
+        .thankyou img {
+            width: 120px;
+            height: 100px;
+            position: relative;
+            top: 200px;
+        }
+        .tyi {
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            bottom: 850px;
+            right: 290px;
+            margin-bottom: -250px;
+        }
+        .footer{
+            width: 1500px;
+            position: relative;
+            top: 110px;
+            padding-bottom: -2300px;
+        }
+        .follow2 {
+            position: relative;
+            left: 155px;
+            top: 20px;
+            padding-top: 10px;
+            
+        }
+        .backtotop {
+            position: relative;
+            left: 250px;
         }
 
         
