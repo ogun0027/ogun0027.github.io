@@ -1104,6 +1104,10 @@ Tablet Styling
             top: 20px;
             padding-top: 10px;
         }
+        .follow2 h3 {
+            position: relative;
+            
+        }
         .backtotop {
             position: relative;
             left: 250px;
