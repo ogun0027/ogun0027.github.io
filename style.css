@@ -9,8 +9,8 @@ html p {
 }
 
 /* ========Home Page Mobile Styling Begins */
-
-h1,
+@media screen and (min-width: 600px) {
+    h1,
 h2,
 h3 {
     padding-left: 5px;
@@ -37,7 +37,6 @@ h3 {
     background-color: #3c3b3a
 }
 
-
 ul {
     text-align: center;
     padding-right: 48px;
@@ -47,7 +46,6 @@ ul {
 .nav ul li {
     padding-bottom: 30px;
 }
-
 
 a {
     color: seashell;
@@ -62,7 +60,6 @@ a:link {
 a:active {
     font-size: larger;
 }
-
 
 /* Removed the bullets by the nav bars */
 ul {
@@ -82,7 +79,6 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 100px);
     margin-left: 28%;
-
 
 }
 
@@ -131,7 +127,6 @@ ul {
 .ic {
     width: 195px;
 }
-
 
 /* Added a space between items */
 .bball {
@@ -195,7 +190,6 @@ ul {
 }
 
 
-
 .president {
     background-color: #3c3b3a;
     color: white;
@@ -244,7 +238,6 @@ ul {
     margin-bottom: 150px;
     box-shadow: #ccc 2px 5px;
 }
-
 
 
 .footer {
@@ -340,23 +333,6 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.brkimg img {
-    display: none;
-}
-
-.legs img {
-    display: none;
-}
-
-.fitness img {
-    display: none;
-}
-
-.grey3 img {
-    display: none;
-}
-
 
 .break h2 {
     font-size: 30px;
@@ -516,7 +492,10 @@ input[type=submit] {
     padding-top: 10%;
 }
 
+}
+
 /* Contact page mobile styling ends */
+/* ============Mobile Styling Ends============== */
 
 /* ===================================================== */
 
@@ -963,19 +942,19 @@ Tablet Styling
         margin-top: -650px;
     }
 
-    .follow2 h3 {
+    .follow3 h3 {
         position: relative;
-        right: 570px;
+        right: 420px;
     }
 
-    .follow2 img {
+    .follow3 img {
         position: relative;
-        right: 550px;
+        right: 400px;
     }
 
     .backtotop img {
         position: relative;
-        right: 120px;
+        right: 130px;
     }
 
     .backtotop p {
@@ -1132,7 +1111,8 @@ Tablet Styling
         font-size: 55px;
         position: relative;
         left: 505px;
-        bottom: 690px;
+        bottom: 600px;
+        margin-bottom: -200px;
     }
 
     .thankyou img {
@@ -1146,33 +1126,40 @@ Tablet Styling
         display: flex;
         flex-direction: row;
         position: relative;
-        bottom: 850px;
-        right: 290px;
+        bottom: 550px;
+        right: 490px;
         margin-bottom: -250px;
     }
 
     .footer {
         width: 1500px;
         position: relative;
-        top: 550px;
+        top: 950px;
+        margin-top: -500px;
 
     }
 
     .follow2 {
         position: relative;
-        left: 555px;
+        left: 605px;
         top: 20px;
         padding-top: 10px;
+    }
+    .follow2 img {
+        position: relative;
+        left: 53px;
     }
 
     .follow2 h3 {
         position: relative;
+        left: 50px;
 
     }
 
     .backtotop {
         position: relative;
         left: 250px;
+        top: 5px;
     }
 
     /* About Page Desktop Styling ends */
@@ -1264,13 +1251,36 @@ Tablet Styling
 
     .location .asca {
         font-size: 25px;
+        width: 600px;
     }
+    
 
     .location p {
         font-size: 15px;
-        width: 300px;
+        width: 270px;
     }
-    
+    .location iframe {
+        position: relative;
+        left: 600px;
+        bottom: 150px;
+    }
+    .footer {
+        margin-top: -1100px;
+        
+    }
+    .follow3 {
+        position: relative;
+        left: 150px;
+        bottom: 60px;
+    }
+    .backtotop {
+        position: relative;
+        bottom: 50px;
+    }
+    .backtotop p {
+        position: relative;
+        right: 130px;
+    }
 
 
 }
