@@ -340,15 +340,19 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .brkimg img {
     display: none;
 }
+
 .legs img {
     display: none;
 }
+
 .fitness img {
     display: none;
 }
+
 .grey3 img {
     display: none;
 }
@@ -1195,6 +1199,7 @@ Tablet Styling
         right: 100px;
         top: 30px;
     }
+
     .form {
         position: relative;
         left: 900px;
@@ -1213,7 +1218,7 @@ Tablet Styling
         position: relative;
         right: 170px;
         font-size: 20px;
-       
+
     }
 
     input[type=text] {
@@ -1222,7 +1227,7 @@ Tablet Styling
         font-size: 20px;
         border-radius: 15px;
         border: none;
-    
+
     }
 
     #message {
@@ -1249,19 +1254,22 @@ Tablet Styling
         position: relative;
         left: 45px;
     }
+
     .location {
         position: relative;
         bottom: 450px;
         left: 10px;
         width: 750px;
     }
+
     .location .asca {
         font-size: 25px;
     }
-    .location p{
+
+    .location p {
         font-size: 15px;
         width: 300px;
     }
-    
-   
+
+
 }
