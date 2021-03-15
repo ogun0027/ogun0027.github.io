@@ -10,487 +10,488 @@ html p {
 
 /* ========Home Page Mobile Styling Begins */
 @media screen and (min-width: 600px) {
+
     h1,
-h2,
-h3 {
-    padding-left: 5px;
-}
-
-.logo img {
-    display: block;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70px;
-}
-
-.logo {
-    height: 100px;
-    width: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.header {
-    background-color: #3c3b3a
-}
-
-ul {
-    text-align: center;
-    padding-right: 48px;
-}
-
-/* Added a space at the bottom of each nav bar */
-.nav ul li {
-    padding-bottom: 30px;
-}
-
-a {
-    color: seashell;
-}
-
-a:link {
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Made the size of the text larger when clicked on */
-a:active {
-    font-size: larger;
-}
-
-/* Removed the bullets by the nav bars */
-ul {
-    list-style-type: none;
-}
-
-/* Added a space between the nav bars and the logo above them */
-ul {
-    padding-top: 20px;
-}
-
-.container {
-    text-align: center;
-}
-
-.icons {
-    display: grid;
-    grid-template-columns: repeat(2, 100px);
-    margin-left: 28%;
-
-}
-
-/* Arranged the icons according to the mock-up and added a space between them */
-.climbing {
-    order: -2;
-    padding-left: 50px;
-    padding-bottom: 10px;
-}
-
-/* Unwrapped the texts under the icons */
-.climbing p {
-    white-space: nowrap;
-}
-
-.dumbbell p {
-    white-space: nowrap;
-
-}
-
-.bball p {
-    white-space: nowrap;
-    margin-left: 15px;
-}
-
-.bowling {
-    order: -3;
-    margin-left: -60px;
-}
-
-.dumbbell {
-    order: -1;
-    margin-left: -100px;
-}
-
-/* Adjusted the icons so they could stay in the center of the texts below them */
-.bl {
-    width: 110px;
-}
-
-.cl {
-    width: 195px;
-    margin-bottom: -10px;
-}
-
-.ic {
-    width: 195px;
-}
-
-/* Added a space between items */
-.bball {
-    padding-left: 50px;
-}
-
-.arc h1 {
-    font-size: 60px;
-    text-align: left;
-}
-
-.arc p {
-    font-size: 29.9px;
-    text-align: left;
-    margin-top: -20px;
-}
-
-.icons p {
-    margin-top: -1px;
-    color: #26a682;
-}
-
-.getstarted {
-    font-size: 35px;
-    background-color: #26a682;
-    border-radius: 30px;
-    display: inline;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-left: -100px;
-}
-
-.discimage {
-    width: auto;
-    height: 20px;
-    margin-top: 50px;
-    margin-bottom: 350px;
-}
-
-.skl {
-    width: 50%
-}
-
-.skl2 {
-    text-align: left;
-}
-
-.skl2 h2 {
-    font-style: italic;
-}
-
-.skl2 p {
-    margin-top: -5px;
-}
-
-.largetext {
-    color: #26a682;
-    margin-top: -10px;
-    margin-bottom: -10px;
-
-}
-
-
-.president {
-    background-color: #3c3b3a;
-    color: white;
-    text-align: left;
-    padding-bottom: 20px;
-    margin-top: 10px;
-}
-
-.president img {
-    border-radius: 50%;
-    margin-left: 38.5%;
-    width: 160px;
-    height: 160px;
-}
-
-.president h3 {
-    text-align: center;
-}
-
-.ent2 p {
-    text-align: left;
-}
-
-.ent2 h3 {
-    text-align: left;
-}
-
-.ent2 h4 {
-    text-align: left;
-    color: #26a682;
-    margin-top: -10px;
-}
-
-.ent2 p {
-    margin-top: -20px;
-}
-
-.learn {
-    font-size: 25px;
-    background-color: #26a682;
-    border-radius: 30px;
-    display: inline;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-left: 50%;
-    margin-bottom: 150px;
-    box-shadow: #ccc 2px 5px;
-}
-
-
-.footer {
-    background-color: #3c3b3a;
-    margin-top: 10px;
-}
-
-.footer h3 {
-    color: white;
-}
-
-.arrow {
-    margin-left: 70%;
-    margin-top: -50%;
-}
-
-.footer p {
-    color: white;
-    padding-left: 70%;
-}
-
-.follow {
-    padding-top: 10%;
-}
-
-/* ================Home page mobile styling ends========================= */
-
-/* ---------------------------------------------------------------- */
-
-/* ================About page mobile styling begins====================== */
-
-.construction h1 {
-    font-size: 60px;
-}
-
-.construction P {
-    font-size: 29.9px;
-    text-align: left;
-    margin-top: -20px;
-}
-
-.about {
-    position: relative;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-}
-
-.center {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* Added a colour overlay to the image */
-.about {
-    background-color: #26a682;
-}
-
-.about img {
-    object-fit: cover;
-    opacity: 0.5;
-}
-
-.www h2 {
-    font-style: italic;
-}
-
-.www p {
-    margin-top: -20px;
-    font-size: 20px;
-}
-
-/* Added a colour overlay to the image */
-.services {
-    background-color: #26a682;
-    position: relative;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-}
-
-.services img {
-    object-fit: cover;
-    opacity: 0.5;
-}
-
-/* Aligned the text to the center of the image */
-.servcenter {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.break h2 {
-    font-size: 30px;
-
-}
-
-.grey {
-    background-color: #eaeaea;
-}
-
-.break h3 {
-    color: #26a682;
-}
-
-.break p {
-    margin-top: -20px;
-    font-size: 20px;
-}
-
-.subscribe p {
-    text-align: center;
-    font-size: 20px;
-    color: white;
-    margin-top: -18px;
-    padding-top: 30px;
-}
-
-.sub {
-    font-size: 25px;
-    background-color: #26a682;
-    border-radius: 30px;
-    display: inline;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-top: 40px;
-    margin-left: 38%;
-}
-
-.subscribe {
-    background-color: #3c3b3a;
-    padding-bottom: 30px;
-}
-
-.new-climbing h2 {
-    font-size: 30px;
-}
-
-.new-climbing h3 {
-    color: #26a682;
-}
-
-.new-climbing p {
-    font-size: 20px;
-}
-
-.grey2 {
-    background-color: #eaeaea;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.thankyou h1 {
-    font-size: 50px;
-    text-align: center;
-    width: 280px;
-    position: relative;
-    left: 200px;
-}
-
-.thankyou img {
-    padding-left: 100px;
-    width: 70px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 20px;
-    position: relative;
-    left: 200px;
-}
-
-.follow2 {
-    position: relative;
-    left: 280px;
-    padding-top: 10%;
-}
-
-/* ===============About page mobile styling ends======================*/
-
-/* ================Contact page mobile styling begins=============*/
-
-.contact h1 {
-    font-size: 100px;
-    text-align: left;
-}
-
-.contact p {
-    font-size: 35px;
-    margin-top: -50px;
-}
-
-.form {
-    background-color: #26a682;
-    border-radius: 30px;
-    color: white;
-    width: 350px;
-    position: relative;
-    left: 200px;
-}
-
-.form h2 {
-    padding-left: 70px;
-    font-size: 40px;
-}
-
-.form label {
-    padding-left: 20px;
-    font-size: 20px;
-}
-
-input[type=text] {
-    margin-left: 20px;
-    font-size: 20px;
-    border-radius: 15px;
-    border: none;
-}
-
-#message {
-    margin-bottom: 10px;
-    margin-left: 20px;
-    width: 290px;
-    border: none;
-    border-radius: 15px;
-}
-
-::placeholder {
-    font-size: 20px;
-}
-
-input[type=submit] {
-    background-color: #3c3b3a;
-    color: white;
-    padding: 10px 5pc;
-    margin-left: 0px;
-    margin-bottom: 30px;
-    border-radius: 20px;
-}
-
-.location h2 {
-    font-size: 50px;
-}
-
-.location p {
-    font-size: 25px;
-}
-
-.follow3 {
-    margin-left: 35%;
-    padding-top: 10%;
-}
+    h2,
+    h3 {
+        padding-left: 5px;
+    }
+
+    .logo img {
+        display: block;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70px;
+    }
+
+    .logo {
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .header {
+        background-color: #3c3b3a
+    }
+
+    ul {
+        text-align: center;
+        padding-right: 48px;
+    }
+
+    /* Added a space at the bottom of each nav bar */
+    .nav ul li {
+        padding-bottom: 30px;
+    }
+
+    a {
+        color: seashell;
+    }
+
+    a:link {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* Made the size of the text larger when clicked on */
+    a:active {
+        font-size: larger;
+    }
+
+    /* Removed the bullets by the nav bars */
+    ul {
+        list-style-type: none;
+    }
+
+    /* Added a space between the nav bars and the logo above them */
+    ul {
+        padding-top: 20px;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .icons {
+        display: grid;
+        grid-template-columns: repeat(2, 100px);
+        margin-left: 28%;
+
+    }
+
+    /* Arranged the icons according to the mock-up and added a space between them */
+    .climbing {
+        order: -2;
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+
+    /* Unwrapped the texts under the icons */
+    .climbing p {
+        white-space: nowrap;
+    }
+
+    .dumbbell p {
+        white-space: nowrap;
+
+    }
+
+    .bball p {
+        white-space: nowrap;
+        margin-left: 15px;
+    }
+
+    .bowling {
+        order: -3;
+        margin-left: -60px;
+    }
+
+    .dumbbell {
+        order: -1;
+        margin-left: -100px;
+    }
+
+    /* Adjusted the icons so they could stay in the center of the texts below them */
+    .bl {
+        width: 110px;
+    }
+
+    .cl {
+        width: 195px;
+        margin-bottom: -10px;
+    }
+
+    .ic {
+        width: 195px;
+    }
+
+    /* Added a space between items */
+    .bball {
+        padding-left: 50px;
+    }
+
+    .arc h1 {
+        font-size: 60px;
+        text-align: left;
+    }
+
+    .arc p {
+        font-size: 29.9px;
+        text-align: left;
+        margin-top: -20px;
+    }
+
+    .icons p {
+        margin-top: -1px;
+        color: #26a682;
+    }
+
+    .getstarted {
+        font-size: 35px;
+        background-color: #26a682;
+        border-radius: 30px;
+        display: inline;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: -100px;
+    }
+
+    .discimage {
+        width: auto;
+        height: 20px;
+        margin-top: 50px;
+        margin-bottom: 350px;
+    }
+
+    .skl {
+        width: 50%
+    }
+
+    .skl2 {
+        text-align: left;
+    }
+
+    .skl2 h2 {
+        font-style: italic;
+    }
+
+    .skl2 p {
+        margin-top: -5px;
+    }
+
+    .largetext {
+        color: #26a682;
+        margin-top: -10px;
+        margin-bottom: -10px;
+
+    }
+
+
+    .president {
+        background-color: #3c3b3a;
+        color: white;
+        text-align: left;
+        padding-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .president img {
+        border-radius: 50%;
+        margin-left: 38.5%;
+        width: 160px;
+        height: 160px;
+    }
+
+    .president h3 {
+        text-align: center;
+    }
+
+    .ent2 p {
+        text-align: left;
+    }
+
+    .ent2 h3 {
+        text-align: left;
+    }
+
+    .ent2 h4 {
+        text-align: left;
+        color: #26a682;
+        margin-top: -10px;
+    }
+
+    .ent2 p {
+        margin-top: -20px;
+    }
+
+    .learn {
+        font-size: 25px;
+        background-color: #26a682;
+        border-radius: 30px;
+        display: inline;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 50%;
+        margin-bottom: 150px;
+        box-shadow: #ccc 2px 5px;
+    }
+
+
+    .footer {
+        background-color: #3c3b3a;
+        margin-top: 10px;
+    }
+
+    .footer h3 {
+        color: white;
+    }
+
+    .arrow {
+        margin-left: 70%;
+        margin-top: -50%;
+    }
+
+    .footer p {
+        color: white;
+        padding-left: 70%;
+    }
+
+    .follow {
+        padding-top: 10%;
+    }
+
+    /* ================Home page mobile styling ends========================= */
+
+    /* ---------------------------------------------------------------- */
+
+    /* ================About page mobile styling begins====================== */
+
+    .construction h1 {
+        font-size: 60px;
+    }
+
+    .construction P {
+        font-size: 29.9px;
+        text-align: left;
+        margin-top: -20px;
+    }
+
+    .about {
+        position: relative;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+
+    .center {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Added a colour overlay to the image */
+    .about {
+        background-color: #26a682;
+    }
+
+    .about img {
+        object-fit: cover;
+        opacity: 0.5;
+    }
+
+    .www h2 {
+        font-style: italic;
+    }
+
+    .www p {
+        margin-top: -20px;
+        font-size: 20px;
+    }
+
+    /* Added a colour overlay to the image */
+    .services {
+        background-color: #26a682;
+        position: relative;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+
+    .services img {
+        object-fit: cover;
+        opacity: 0.5;
+    }
+
+    /* Aligned the text to the center of the image */
+    .servcenter {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .break h2 {
+        font-size: 30px;
+
+    }
+
+    .grey {
+        background-color: #eaeaea;
+    }
+
+    .break h3 {
+        color: #26a682;
+    }
+
+    .break p {
+        margin-top: -20px;
+        font-size: 20px;
+    }
+
+    .subscribe p {
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        margin-top: -18px;
+        padding-top: 30px;
+    }
+
+    .sub {
+        font-size: 25px;
+        background-color: #26a682;
+        border-radius: 30px;
+        display: inline;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: 40px;
+        margin-left: 38%;
+    }
+
+    .subscribe {
+        background-color: #3c3b3a;
+        padding-bottom: 30px;
+    }
+
+    .new-climbing h2 {
+        font-size: 30px;
+    }
+
+    .new-climbing h3 {
+        color: #26a682;
+    }
+
+    .new-climbing p {
+        font-size: 20px;
+    }
+
+    .grey2 {
+        background-color: #eaeaea;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .thankyou h1 {
+        font-size: 50px;
+        text-align: center;
+        width: 280px;
+        position: relative;
+        left: 200px;
+    }
+
+    .thankyou img {
+        padding-left: 100px;
+        width: 70px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+        position: relative;
+        left: 200px;
+    }
+
+    .follow2 {
+        position: relative;
+        left: 280px;
+        padding-top: 10%;
+    }
+
+    /* ===============About page mobile styling ends======================*/
+
+    /* ================Contact page mobile styling begins=============*/
+
+    .contact h1 {
+        font-size: 100px;
+        text-align: left;
+    }
+
+    .contact p {
+        font-size: 35px;
+        margin-top: -50px;
+    }
+
+    .form {
+        background-color: #26a682;
+        border-radius: 30px;
+        color: white;
+        width: 350px;
+        position: relative;
+        left: 200px;
+    }
+
+    .form h2 {
+        padding-left: 70px;
+        font-size: 40px;
+    }
+
+    .form label {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    input[type=text] {
+        margin-left: 20px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: none;
+    }
+
+    #message {
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 290px;
+        border: none;
+        border-radius: 15px;
+    }
+
+    ::placeholder {
+        font-size: 20px;
+    }
+
+    input[type=submit] {
+        background-color: #3c3b3a;
+        color: white;
+        padding: 10px 5pc;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+    }
+
+    .location h2 {
+        font-size: 50px;
+    }
+
+    .location p {
+        font-size: 25px;
+    }
+
+    .follow3 {
+        margin-left: 35%;
+        padding-top: 10%;
+    }
 
 }
 
@@ -1145,6 +1146,7 @@ Tablet Styling
         top: 20px;
         padding-top: 10px;
     }
+
     .follow2 img {
         position: relative;
         left: 53px;
@@ -1253,30 +1255,35 @@ Tablet Styling
         font-size: 25px;
         width: 600px;
     }
-    
+
 
     .location p {
         font-size: 15px;
         width: 270px;
     }
+
     .location iframe {
         position: relative;
         left: 600px;
         bottom: 150px;
     }
+
     .footer {
         margin-top: -1100px;
-        
+
     }
+
     .follow3 {
         position: relative;
         left: 150px;
         bottom: 60px;
     }
+
     .backtotop {
         position: relative;
         bottom: 50px;
     }
+
     .backtotop p {
         position: relative;
         right: 130px;
