@@ -340,6 +340,19 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.brkimg img {
+    display: none;
+}
+.legs img {
+    display: none;
+}
+.fitness img {
+    display: none;
+}
+.grey3 img {
+    display: none;
+}
+
 
 .break h2 {
     font-size: 30px;
@@ -402,16 +415,26 @@ ul {
 }
 
 .thankyou h1 {
-    font-size: 120px;
+    font-size: 50px;
     text-align: center;
+    width: 280px;
+    position: relative;
+    left: 200px;
 }
 
 .thankyou img {
     padding-left: 100px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    position: relative;
+    left: 200px;
 }
 
 .follow2 {
-    margin-left: 35%;
+    position: relative;
+    left: 280px;
     padding-top: 10%;
 }
 
@@ -433,31 +456,32 @@ ul {
     background-color: #26a682;
     border-radius: 30px;
     color: white;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 350px;
+    position: relative;
+    left: 200px;
 }
 
 .form h2 {
-    padding-left: 200px;
-    font-size: 50px;
+    padding-left: 70px;
+    font-size: 40px;
 }
 
 .form label {
-    padding-left: 120px;
-    font-size: 30px;
+    padding-left: 20px;
+    font-size: 20px;
 }
 
 input[type=text] {
-    margin-left: 120px;
-    font-size: 30px;
+    margin-left: 20px;
+    font-size: 20px;
     border-radius: 15px;
     border: none;
 }
 
 #message {
     margin-bottom: 10px;
-    margin-left: 120px;
-    width: 380px;
+    margin-left: 20px;
+    width: 290px;
     border: none;
     border-radius: 15px;
 }
@@ -470,7 +494,7 @@ input[type=submit] {
     background-color: #3c3b3a;
     color: white;
     padding: 10px 5pc;
-    margin-left: 200px;
+    margin-left: 0px;
     margin-bottom: 30px;
     border-radius: 20px;
 }
@@ -781,28 +805,34 @@ Tablet Styling
         .container {
             margin: 0px 0px 0px 25px;
         }
+
         .arc {
             width: 750px;
             position: relative;
             bottom: 40px;
         }
+
         .arc p {
             margin-top: -100px;
         }
+
         .icons p {
             font-size: 20px;
             padding-top: 50px;
             width: 150px;
         }
+
         .bowling {
             position: relative;
             left: 89px;
             top: 6px;
         }
+
         .bl {
             position: relative;
             right: 16px;
         }
+
         .dumbbell i {
             position: relative;
             right: 12px;
@@ -812,6 +842,7 @@ Tablet Styling
             padding-right: 125px;
             position: relative;
         }
+
         .climbing p {
             position: relative;
             bottom: 8px;
@@ -821,300 +852,416 @@ Tablet Styling
         .dumbbell {
             padding-top: 6px;
         }
+
         .bball {
             position: relative;
             right: 30px;
             top: 8px;
         }
+
         .ic {
             position: relative;
             right: 20px;
         }
-        
-        }
-        .getstarted {
-            font-size: 30px;
-            position: relative;
-            left: 180px;
-            top: 20px;
-            display: inline-block;
-            width: 200px;
-        }
-
-        .skl {
-            margin-top: -500px;
-        }
-
-        .skl img {
-            width: 750px;
-            position: relative;
-            left: 30px;
-            bottom: 90px;
-        }
-
-        .skl2 {
-            padding-left: 1150px;
-            margin-top: -350px;
-            width: 650px;
-            position: relative;
-            right: 390px;
-            bottom: 50px;
-            font-size: 20px;
-           
-        }
-
-        .president {
-            width: 1500px;
-            height: auto;
-            position: relative;
-            bottom: 40px;
-            margin-left: -30px;
-        }
-
-        .president img {
-            position: relative;
-            right: 500px;
-            top: 100px;
-        }
-        .president h3 {
-            position: relative;
-            right: 0px;
-            bottom: 50px;
-            margin-bottom: -30px;
-        }
-        .president p {
-            width: 800px;
-            position: relative;
-            bottom: 115px;
-            right: 100px;
-        }
-
-        .ent {
-            width: 750px;
-            position: relative;
-            left: 750px;
-        }
-        .ent img {
-            padding-bottom: 30px;
-            position: relative;
-            right: 30px;
-        }
-
-        .ent2 {
-            width: 750px;
-            position: relative;
-            bottom: 500px;
-        }
-        .ent2 p {
-            padding-right: 60px;
-        }
-        .ent2 a {
-            position: relative;
-            top: 60px;
-        }
-
-        .footer {
-            width: 1500px;
-            position: relative;
-            bottom: 1950px;
-            margin-top: -650px;         
-        }
-
-        .follow2 h3 {
-            position: relative;
-            right: 450px;
-        }
-        .follow2 img {
-            position: relative;
-            right: 430px;
-        }
-        .backtotop img{
-            position: relative;
-            right: 120px;
-        }
-        .backtotop p {
-            position: relative;
-            right: 120px;
-        }
-
-       
-
-        /* Homepage Desktop Styling Ends */
-
-        /* About Page Desktop Styling Begins */
-
-        .construction {
-            width: 750px;
-            margin-bottom: -300px;
-            position: relative;
-            left: 70px;
-        }
-
-        .construction img {
-            width: 750px;
-            position: relative;
-            bottom: 450px;
-            left: 600px;
-        }
-
-        .about {
-            width: 1500px;
-        }
-
-        .www {
-            display: flex;
-            flex-direction: row;
-            padding-top: 80px;
-            width: 1500px;
-            margin-bottom: 80px;
-            margin-top: 80px;
-            position: relative;
-            right: 160px;
-        }
-
-        .www h2 {
-            position: relative;
-            top: -70px;
-            left: 65px;
-        }
-
-        .services {
-            width: 1500px;
-        }
-
-        .brkimg {
-            position: relative;
-            left: 80px;
-            top: 50px;
-        }
-
-        .break {
-            width: 750px;
-            position: relative;
-            top: -250px;
-            left: 650px;
-        }
-
-        .grey {
-            position: relative;
-            left: 80px;
-            font-size: 21px;
-            width: 600px;
-            bottom: 80px;
-            background-color: white;
-        }
-        
-        .legs {
-            width: 750px;
-        }
-        .legs img{
-            position: relative;
-            right: 500px;
-            bottom: 85px;
-        }
-        .subscribe {
-            width: 1500px;
-            position: relative;
-            bottom: 290px;
-            display: flex;
-            flex-direction: row;
-        }
-        .subscribe p {
-            position: relative;
-            left: 450px;
-            top: 23px;
-        }
-        .subscribe a {
-            position: relative;
-            right: 120px;
-            bottom: 7px;
-        }
-
-        .grey h3 {
-            color: #26a682;
-            position: relative;
-            bottom: 15px;
-        }
-
-        .grey p {
-            position: relative;
-            bottom: 45px;
-        }
-
-        .legs {
-            position: relative;
-            left: 1200px;
-            top: -250px;
-        }
-        .fitness img {
-            width: 600px;
-            height: 300px;
-            position: relative;
-            bottom: 250px;
-            left: 150px;
-        }
-        .nynm {
-            width: 750px;
-            position: relative;
-            bottom: 562px;
-            left: 710px;
-        }
-        .grey2 {
-            width: 750px;
-            position: relative;
-            left: 50px;
-            bottom: 450px;
-        }
-        .grey3 img{
-            width: 600px;
-            height: 254px;
-            position: relative;
-            left: 800px;
-            bottom: 702px;
-        }
-        .thankyou h1 {
-            font-size: 55px;
-            position: relative;
-            left: 205px;
-            bottom: 690px;
-        }
-       
-        .thankyou img {
-            width: 120px;
-            height: 100px;
-            position: relative;
-            top: 200px;
-        }
-        .tyi {
-            display: flex;
-            flex-direction: row;
-            position: relative;
-            bottom: 850px;
-            right: 290px;
-            margin-bottom: -250px;
-        }
-        .footer{
-            width: 1500px;
-            position: relative;
-            top: 250px;
-        }
-        .follow2 {
-            position: relative;
-            left: 155px;
-            top: 20px;
-            padding-top: 10px;
-        }
-        .follow2 h3 {
-            position: relative;
-            
-        }
-        .backtotop {
-            position: relative;
-            left: 250px;
-        }
-        
-
-        
-
 
     }
+
+    .getstarted {
+        font-size: 30px;
+        position: relative;
+        left: 180px;
+        top: 20px;
+        display: inline-block;
+        width: 200px;
+    }
+
+    .skl {
+        margin-top: -500px;
+    }
+
+    .skl img {
+        width: 750px;
+        position: relative;
+        left: 30px;
+        bottom: 90px;
+    }
+
+    .skl2 {
+        padding-left: 1150px;
+        margin-top: -350px;
+        width: 650px;
+        position: relative;
+        right: 390px;
+        bottom: 50px;
+        font-size: 20px;
+
+    }
+
+    .president {
+        width: 1500px;
+        height: auto;
+        position: relative;
+        bottom: 40px;
+        margin-left: -30px;
+    }
+
+    .president img {
+        position: relative;
+        right: 500px;
+        top: 100px;
+    }
+
+    .president h3 {
+        position: relative;
+        right: 0px;
+        bottom: 50px;
+        margin-bottom: -30px;
+    }
+
+    .president p {
+        width: 800px;
+        position: relative;
+        bottom: 115px;
+        right: 100px;
+    }
+
+    .ent {
+        width: 750px;
+        position: relative;
+        left: 750px;
+    }
+
+    .ent img {
+        padding-bottom: 30px;
+        position: relative;
+        right: 30px;
+    }
+
+    .ent2 {
+        width: 750px;
+        position: relative;
+        bottom: 500px;
+    }
+
+    .ent2 p {
+        padding-right: 60px;
+    }
+
+    .ent2 a {
+        position: relative;
+        top: 60px;
+    }
+
+    .footer {
+        width: 1500px;
+        position: relative;
+        bottom: 1950px;
+        margin-top: -650px;
+    }
+
+    .follow2 h3 {
+        position: relative;
+        right: 450px;
+    }
+
+    .follow2 img {
+        position: relative;
+        right: 430px;
+    }
+
+    .backtotop img {
+        position: relative;
+        right: 120px;
+    }
+
+    .backtotop p {
+        position: relative;
+        right: 120px;
+    }
+
+
+
+    /* Homepage Desktop Styling Ends */
+
+    /* About Page Desktop Styling Begins */
+
+    .construction {
+        width: 750px;
+        margin-bottom: -300px;
+        position: relative;
+        left: 70px;
+    }
+
+    .construction img {
+        width: 750px;
+        position: relative;
+        bottom: 450px;
+        left: 600px;
+    }
+
+    .about {
+        width: 1500px;
+    }
+
+    .www {
+        display: flex;
+        flex-direction: row;
+        padding-top: 80px;
+        width: 1500px;
+        margin-bottom: 80px;
+        margin-top: 80px;
+        position: relative;
+        right: 160px;
+    }
+
+    .www h2 {
+        position: relative;
+        top: -70px;
+        left: 65px;
+    }
+
+    .services {
+        width: 1500px;
+    }
+
+    .brkimg {
+        position: relative;
+        left: 80px;
+        top: 50px;
+    }
+
+    .break {
+        width: 750px;
+        position: relative;
+        top: -250px;
+        left: 650px;
+    }
+
+    .grey {
+        position: relative;
+        left: 80px;
+        font-size: 21px;
+        width: 600px;
+        bottom: 80px;
+        background-color: white;
+    }
+
+    .legs {
+        width: 750px;
+    }
+
+    .legs img {
+        position: relative;
+        right: 500px;
+        bottom: 85px;
+    }
+
+    .subscribe {
+        width: 1500px;
+        position: relative;
+        bottom: 290px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .subscribe p {
+        position: relative;
+        left: 450px;
+        top: 23px;
+    }
+
+    .subscribe a {
+        position: relative;
+        right: 120px;
+        bottom: 7px;
+    }
+
+    .grey h3 {
+        color: #26a682;
+        position: relative;
+        bottom: 15px;
+    }
+
+    .grey p {
+        position: relative;
+        bottom: 45px;
+    }
+
+    .legs {
+        position: relative;
+        left: 1200px;
+        top: -250px;
+    }
+
+    .fitness img {
+        width: 600px;
+        height: 300px;
+        position: relative;
+        bottom: 250px;
+        left: 150px;
+    }
+
+    .nynm {
+        width: 750px;
+        position: relative;
+        bottom: 562px;
+        left: 710px;
+    }
+
+    .grey2 {
+        width: 750px;
+        position: relative;
+        left: 50px;
+        bottom: 450px;
+    }
+
+    .grey3 img {
+        width: 600px;
+        height: 254px;
+        position: relative;
+        left: 800px;
+        bottom: 702px;
+    }
+
+    .thankyou h1 {
+        width: 500px;
+        font-size: 55px;
+        position: relative;
+        left: 505px;
+        bottom: 690px;
+    }
+
+    .thankyou img {
+        width: 120px;
+        height: 100px;
+        position: relative;
+        top: 300px;
+    }
+
+    .tyi {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        bottom: 850px;
+        right: 290px;
+        margin-bottom: -250px;
+    }
+
+    .footer {
+        width: 1500px;
+        position: relative;
+        top: 550px;
+
+    }
+
+    .follow2 {
+        position: relative;
+        left: 555px;
+        top: 20px;
+        padding-top: 10px;
+    }
+
+    .follow2 h3 {
+        position: relative;
+
+    }
+
+    .backtotop {
+        position: relative;
+        left: 250px;
+    }
+
+    /* About Page Desktop Styling ends */
+    /* ==================================================== */
+    /* Contact Page Desktop Styling Begins */
+
+    .contact h1 {
+        font-size: 60px;
+        width: 700px;
+        position: relative;
+        left: 80px;
+    }
+
+    .contact p {
+        font-size: 20px;
+        width: 800px;
+        position: relative;
+        left: 88px;
+        top: 30px;
+    }
+
+    .contact img {
+        position: relative;
+        right: 100px;
+        top: 30px;
+    }
+    .form {
+        position: relative;
+        left: 900px;
+        bottom: 570px;
+        width: 180px;
+    }
+
+    .form h2 {
+        position: relative;
+        right: 180px;
+        width: 250px;
+        font-size: 40px;
+    }
+
+    .form label {
+        position: relative;
+        right: 170px;
+        font-size: 20px;
+       
+    }
+
+    input[type=text] {
+        position: relative;
+        right: 170px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: none;
+    
+    }
+
+    #message {
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 290px;
+        border: none;
+        border-radius: 15px;
+        position: relative;
+        right: 170px;
+    }
+
+    ::placeholder {
+        font-size: 20px;
+    }
+
+    input[type=submit] {
+        background-color: #3c3b3a;
+        color: white;
+        padding: 10px 25px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        position: relative;
+        left: 45px;
+    }
+    .location {
+        position: relative;
+        bottom: 450px;
+        left: 10px;
+        width: 750px;
+    }
+    .location .asca {
+        font-size: 25px;
+    }
+    .location p{
+        font-size: 15px;
+        width: 300px;
+    }
+    
+   
+}
