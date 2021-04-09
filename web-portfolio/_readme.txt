@@ -11,13 +11,13 @@ One major challenge that I had was how to change the layout of the contents in '
                 <a class="text-decoration-none text-dark" href="#">
                     <h2 class="text-center">Photography</h2>
                 </a>
-                <img src="wp-images/me.jpg" alt="image">
+                <img class="col-12" src="wp-images/me.jpg" alt="image">
             </div>
             <div class="col-md-6 mt-5">
                 <a class="text-decoration-none text-dark" href="#">
                     <h2 class="text-center">Videography</h2>
                 </a>
-                <img src="wp-images/woman-659350_1920.jpg" alt="image">
+                <img class="col-12" src="wp-images/woman-659350_1920.jpg" alt="image">
             </div>
         </div>
     </div>
