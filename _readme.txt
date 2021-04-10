@@ -47,7 +47,6 @@ The third challenge which I was also unable to overcome was not being able to ma
 ASSETS & RESOURCES USED
 
 Framework: Bootstrap
-Fonts: Google Fonts
 Images (except for the image for 'Photography' which is mine): https://pixabay.com/
 
 
