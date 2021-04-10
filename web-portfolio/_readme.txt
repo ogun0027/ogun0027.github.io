@@ -51,7 +51,9 @@ Fonts: Google Fonts
 Images (except for the image for 'Photography' which is mine): https://pixabay.com/
 
 
-The one thing that I learnt by creating my web portfolio is that the design of a website may look good, but developing the website exactly the way it is designed may not be practicable.
+WHAT I LEARNT
+
+The one thing that I learnt by creating my web portfolio is that even though Bootstrap is a great framework to build responsive websites at a very fast speed, it has limitations. One of the limitations being the creation of border radius. One does not have the freedom to choose a radius size like in the case of the form background that I developed in comparison to the one I designed in Adobe XD. A developer can only use a class of .rounded with no option for sizes.
 
 
 
