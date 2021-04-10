@@ -1,6 +1,6 @@
 CHALLENGES
 
-I had 3 major challenges during the development of my web portfolio.
+I had 2 major challenges during the development of my web portfolio.
 
 The first challenge I faced was how to change the layout of the contents in 'Services' page. The images were too large and overlapped even though I specified 6 columns for each one using a class of ".col-md-6" in the <div> containing the contents. However, I was able to solve this by adding a class of ".col-12" to each of the <img> tags. Please find the code below:
 
@@ -22,7 +22,7 @@ The first challenge I faced was how to change the layout of the contents in 'Ser
     </div>
 
 
-The second challenge I had was the usage of a toggler for mobile view. The toggler appeared but it would not drop down the menu and I could not figure out why. Unfortunately, I was unable to overcome this.
+The second challenge I had was the usage of a toggler for mobile view. The toggler was displayed but it would not drop down the menu and I could not figure out why. Unfortunately, I was unable to overcome this.
 
 Please find the code below:
 
@@ -40,7 +40,6 @@ Please find the code below:
     </button>
 </nav>
 
-The third challenge which I was also unable to overcome was not being able to make the image in 'Contact' page disappear in mobile view as it is in the mockup.
 
 
 
@@ -50,7 +49,9 @@ Framework: Bootstrap
 Images (except for the image for 'Photography' which is mine): https://pixabay.com/
 
 
-The one thing that I learnt by creating my web portfolio is that the design of a website may look good, but developing the website exactly the way it is designed may not be practicable.
+WHAT I LEARNT
+
+The one thing that I learnt by creating my web portfolio is that even though Bootstrap is a great framework to build responsive websites at a very fast speed, it has limitations. One of the limitations being the creation of border radius. One does not have the freedom to choose a radius size like in the case of the form background that I developed in comparison to the one I designed in Adobe XD. A developer can only use a class of .rounded with no option for sizes.
 
 
 

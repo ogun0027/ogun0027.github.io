@@ -1,6 +1,6 @@
 CHALLENGES
 
-I had 3 major challenges during the development of my web portfolio.
+I had 2 major challenges during the development of my web portfolio.
 
 The first challenge I faced was how to change the layout of the contents in 'Services' page. The images were too large and overlapped even though I specified 6 columns for each one using a class of ".col-md-6" in the <div> containing the contents. However, I was able to solve this by adding a class of ".col-12" to each of the <img> tags. Please find the code below:
 
@@ -22,7 +22,7 @@ The first challenge I faced was how to change the layout of the contents in 'Ser
     </div>
 
 
-The second challenge I had was the usage of a toggler for mobile view. The toggler appeared but it would not drop down the menu and I could not figure out why. Unfortunately, I was unable to overcome this.
+The second challenge I had was the usage of a toggler for mobile view. The toggler was displayed but it would not drop down the menu and I could not figure out why. Unfortunately, I was unable to overcome this.
 
 Please find the code below:
 
@@ -40,14 +40,12 @@ Please find the code below:
     </button>
 </nav>
 
-The third challenge which I was also unable to overcome was not being able to make the image in 'Contact' page disappear in mobile view as it is in the mockup.
 
 
 
 ASSETS & RESOURCES USED
 
 Framework: Bootstrap
-Fonts: Google Fonts
 Images (except for the image for 'Photography' which is mine): https://pixabay.com/
 
 
